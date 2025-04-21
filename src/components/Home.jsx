@@ -7,7 +7,7 @@ function Home() {
   const { data, loading } = useAuth();
   console.log(data);
   return (
-    <div className="flex mt-20">
+    <div className="flex mt-5">
       <Sidebar />
       <div className="h-[calc(100vh-6.625rem)] overflow-y-scroll overflow-x-hidden">
         <ListItems />
