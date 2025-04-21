@@ -9,8 +9,9 @@ import Loading from "./loader/Loading";
 
 function App() {
   const { loading } = useAuth();
+
   return (
-    <div>
+    <div className="bg-white text-black dark:bg-black dark:text-white min-h-screen">
       {loading && <Loading />}
       <Navbar />
       <Routes>
